@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Chris Watts</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Chris Watts</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <img class="commercial-project-title-image-landscape" src="./assets/CommercialProjects/Atomfall/Atomfall_Cover.jpg" alt="">
+    <section>
+        <h1>Atomfall</h1>
+        <div class="commercial-row">
+            <div class="commercial-column-wide">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sint cupiditate nobis? Suscipit quasi qui blanditiis repellendus impedit sit fuga, molestiae alias error magni officiis in quos voluptatem possimus nesciunt.
+                </p>
+                <div class="videoWrapper">
+                    <iframe src="https://www.youtube.com/embed/iCGyfXGPSvc?si=-t7GUVQ93slUJq1V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="commercial-column-thin">
+                <p>Other Pictures here
+                    Image gallery and links etc
+                </p>
+                
+            </div>
+        </div>
+    </section>
+</body>

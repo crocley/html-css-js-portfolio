@@ -554,6 +554,7 @@ article .icon {
 
 
 /* Portfolio Sections */
+
 .project-section-personal {
     margin-bottom: 20%;
 }
@@ -620,6 +621,12 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+/* PERSONAL PROJECTS */
+
+#personal_projects {
+    position: relative;
 }
 
 /* CONTACT */
